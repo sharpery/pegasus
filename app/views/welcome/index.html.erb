@@ -1,30 +1,77 @@
 <br  />
-
-<div class="image">
-  <div class="jumbotron">
-    <div >
-      <h1 style="padding-left: 20px;"><span>Pegasus</span></h1>
-    </div>
-    <div class="horse">
-      <img src="http://www.freeiconspng.com/uploads/horse-png-5.png" style="max-width: 100%; height: 400px; padding-left: 50px;" />
-    </div>
-    <br />
-    <p class="phrase" style="padding-left: 20px;">
-      Find your dream horse!
-    </p>
-    <div class="points" style="margin-right: 30px;">
-      <div class="row">
-        <h2>Sell you horse!</h2>
-        <p>Create a personal account to sell the occasional horse or create a business account to sell more!</p>
+<!-- <div class="header">
+  <div class="container">
+    <div class="jumbotron text-center">
+      <div >
+        <h1>Pegasus</h1>
+        <p>Find your dream horse!</p>
       </div>
-      <div class="row">
-        <h2>Matches horses and riders!</h2>
-        <p>Fill out a simple questionnaire and our algorithm will suggest horses for you and riders for your horse</p>
-      </div>
-      <!-- <div class="row">
-        <h2>Makes you a better person!</h2>
-        <p>Learn everything you could ever know, even fictional stuff!</p>
-      </div> -->
     </div>
   </div>
 </div>
+-->
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide main-carousel" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="3"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
+
+<div class="item active">
+    <%= image_tag "eventer2.jpeg", class: 'sale-carousel' %>
+  <div class="carousel-caption">
+    <h3>Eventers for Sale</h3>
+  </div>
+</div>
+
+<div class="item">
+  <%= image_tag "foxhunter2.jpeg", class: 'sale-carousel' %>
+  <div class="carousel-caption">
+    <h3>Field Hunters for Sale</h3>
+  </div>
+</div>
+
+<div class="item">
+  <%= image_tag "hunter.jpg", class: 'sale-carousel' %>
+  <div class="carousel-caption">
+    <h3>Hunters for Sale</h3>
+  </div>
+</div>
+
+<div class="item">
+  <%= image_tag "jumper2.jpg", class: 'sale-carousel' %>
+  <div class="carousel-caption">
+    <h3>Jumpers for Sale</h3>
+  </div>
+</div>
+</div>
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+
+    <div class="container text-center">
+        <div class="well col-sm-5">
+          <h2>Sell your horse!</h2>
+          <p>Create a personal account to sell the occasional horse or create a business account to sell more!</p>
+        </div>
+        <div class="col-sm-2">
+          <img src="http://www.freeiconspng.com/uploads/horse-png-5.png" style="width:165px;height:120px;padding-right:5px;"/>
+        </div>
+        <div class="well col-sm-5">
+          <h2>Matches horses and riders!</h2>
+          <p>Fill out a simple questionnaire and our algorithm will suggest horses for you and riders for your horse</p>
+        </div>
+    </div>
