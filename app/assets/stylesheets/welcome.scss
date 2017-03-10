@@ -13,9 +13,9 @@
 
 .main-carousel {
   margin-bottom: 10px;
-  margin-left: 70px;
-  margin-right: 70px;
-  border-radius: 5px 5px 5px 5px;
+  // margin-left: 70px;
+  // margin-right: 70px;
+  // border-radius: 5px 5px 5px 5px;
   overflow: hidden;
   height: auto;
 }
@@ -23,4 +23,9 @@
 .carousel-caption {
     top: 375px;
     bottom: auto;
+}
+
+.logo {
+  color: 	#2B3770;
+  text-emphasis-style: circle;
 }
